@@ -135,8 +135,7 @@ public class Pedido implements Serializable {
     
     public Double calculaTotalCompras(){
         Double total = null;
-        for (Iterator<ItemSelecionado> it = itens.iterator(); it.hasNext();) {
-            ItemSelecionado i = it.next();
+        for (ItemSelecionado i : itens) {
             total += i.calculaSubTotal();
         }
         return total;
