@@ -3,6 +3,8 @@
   <persistence-unit name="drinkPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>drink.drinks.Cliente</class>
+    <class>drink.drinks.Cartao</class>
+    <class>drink.drinks.Endereco</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/idrink?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
