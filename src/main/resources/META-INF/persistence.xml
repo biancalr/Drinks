@@ -5,6 +5,9 @@
     <class>drink.drinks.Cliente</class>
     <class>drink.drinks.Cartao</class>
     <class>drink.drinks.Endereco</class>
+    <class>drink.drinks.Bebida</class>
+    <class>drink.drinks.ItemSelecionado</class>
+    <class>drink.drinks.Pedido</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/idrink?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
