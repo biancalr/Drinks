@@ -20,11 +20,11 @@ public class Bebida implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String nome;
-    private String marca;
-    private Double preco;
-    private Integer estoque;
+    protected Long id;
+    protected String nome;
+    protected String marca;
+    protected Double preco;
+    protected Integer estoque;
 
     public Long getId() {
         return id;
